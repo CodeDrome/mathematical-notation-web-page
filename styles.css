@@ -1,0 +1,29 @@
+
+table
+{
+    border-collapse: collapse;
+}
+
+
+th
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #F0F0F0;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+td
+{
+    font-family: monospace;
+    font-size: 12pt;
+    border: 1px solid #808080;
+    padding: 8px;
+    text-align: center;
+}
+
+.emptyrow
+{
+    height: 16px;
+}

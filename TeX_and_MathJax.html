@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+    <title>TeX and MathJax</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+    <table>
+
+        <tr><th>Name</th><th>Newton's Law of Universal Gravitation</th></tr>
+        <tr><th>Description</th><td><em>Force of gravity between two bodies (eg a planet and moon) with specified masses and distance between centres of gravity</em></td></tr>
+        <tr><th>TeX</th><td>F = G{m_1m_2 \over r^2}</td></tr>
+        <tr><th>MathJax</th><td>$$F = G{m_1m_2 \over r^2}$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Quadratic Equation</th></tr>
+        <tr><th>Description</th><td><em>Equation of parabola or any behaviour which follows this pattern</em></td></tr>
+        <tr><th>TeX</th><td>ax^2 + bx + c = 0</td></tr>
+        <tr><th>MathJax</th><td>$$ax^2 + bx + c = 0$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Quadratic Formula</th></tr>
+        <tr><th>Description</th><td><em>Find values of x for quadratic equation with given values of a, b and c</em></td></tr>
+        <tr><th>TeX</th><td>x = {-b \pm \sqrt{b^2-4ac} \over 2a}</td></tr>
+        <tr><th>MathJax</th><td>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Bayes' Theorem</th></tr>
+        <tr><th>Description</th><td><em>Calculate probability of A given B</em></td></tr>
+        <tr><th>TeX</th><td>P(A|B) = {P(B|A)P(A) \over P(B)}</td></tr>
+        <tr><th>MathJax</th><td>$$P(A|B) = {P(B|A)P(A) \over P(B)}$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Binet's Formula</th></tr>
+        <tr><th>Description</th><td><em>Calculate the term n of the Fibonacci Sequence</em></td></tr>
+        <tr><th>TeX</th><td>u_n = {(1 + \sqrt5)^n - (1 - \sqrt5)^n \over 2^n \sqrt5}</td></tr>
+        <tr><th>MathJax</th><td>$$u_n = {(1 + \sqrt5)^n - (1 - \sqrt5)^n \over 2^n \sqrt5}$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Spherical Angle</th></tr>
+        <tr><th>Description</th><td><em>Calculate the angle between two lines from the centre of a sphere given the positions they intersect the surface</em></td></tr>
+        <tr><th>TeX</th><td>\Delta \sigma = arccos(sin \phi _1 \cdot sin \phi _2 + cos \phi _1 \cdot cos \phi _2 \cdot cos(\Delta \lambda))</td></tr>
+        <tr><th>MathJax</th><td>$$\Delta \sigma = arccos(sin \phi _1 \cdot sin \phi _2 + cos \phi _1 \cdot cos \phi _2 \cdot cos(\Delta \lambda))$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Taylor Polynomial for Sine</th></tr>
+        <tr><th>Description</th><td><em>Estimate the sine of the angle x. Iterating to higher values of n increases precision.</em></td></tr>
+        <tr><th>TeX</th><td>sin\;x = \sum_{n=0}^{\infty} {(-1)^n \over (2n + 1)!} x^{2n+1}</td></tr>
+        <tr><th>MathJax</th><td>$$sin\;x = \sum_{n=0}^{\infty} {(-1)^n \over (2n + 1)!} x^{2n+1}$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Zeller's Congruence</th></tr>
+        <tr><th>Description</th><td><em>Calculate the day of the week from a date</em></td></tr>
+        <tr><th>TeX</th><td>h = \left( q +
+            {\bigg \lfloor{13(m+1) \over 5}\bigg\rfloor}
+            + Y + {\bigg \lfloor{Y \over 4}\bigg\rfloor}
+            - {\bigg \lfloor{Y \over 100}\bigg\rfloor}
+            + {\bigg \lfloor{Y \over 400}\bigg\rfloor}
+            \right) mod\;7</td></tr>
+        <tr><th>MathJax</th><td>$$h = \left( q +
+            {\bigg \lfloor{13(m+1) \over 5}\bigg\rfloor}
+            + Y + {\bigg \lfloor{Y \over 4}\bigg\rfloor}
+            - {\bigg \lfloor{Y \over 100}\bigg\rfloor}
+            + {\bigg \lfloor{Y \over 400}\bigg\rfloor}
+            \right) mod\;7$$</td></tr>
+
+		<tr class=emptyrow></tr>
+
+        <tr><th>Name</th><th>Normal Distribution</th></tr>
+        <tr><th>Description</th><td><em>Calculate the probability of a value x from a dataset which follows the normal distribution and has an arithmetic mean &mu; and variance &sigma;&sup2;</em></td></tr>
+        <tr><th>TeX</th><td>f(x|\mu, \sigma^2) =
+            {1 \over \sqrt{2\pi\sigma^2}}e
+            ^{-{{(x-\mu)^2}\over {2\sigma^2}}}</td></tr>
+        <tr><th>MathJax</th><td>$$f(x|\mu, \sigma^2) =
+            {1 \over \sqrt{2\pi\sigma^2}}e
+            ^{-{{(x-\mu)^2}\over {2\sigma^2}}}$$</td></tr>
+
+    </table>
+
+</body>
+
+</html>
